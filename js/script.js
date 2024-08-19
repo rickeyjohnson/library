@@ -1,0 +1,17 @@
+function Book(title, author, pages, read) {
+    this.title = title
+    this.author = author
+    this.pages = pages
+    this.read = read
+    this.info = function() {
+        let phrase = this.title + " by " + this.author + ", " + this.pages + " pages, "
+
+        if (!this.read) {
+            phrase += "not read yet"
+        } else {
+            phrase += "already read"
+        }
+
+        return phrase
+    }
+}
