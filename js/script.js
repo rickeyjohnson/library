@@ -27,3 +27,5 @@ function displayBooks() {
         console.log(book)
     })
 }
+
+// Test books
