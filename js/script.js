@@ -1,3 +1,5 @@
+const myLibrary = []
+
 function Book(title, author, pages, read) {
     this.title = title
     this.author = author
@@ -14,4 +16,8 @@ function Book(title, author, pages, read) {
 
         return phrase
     }
+}
+
+function addBookToLibrary() {
+    // do something
 }
