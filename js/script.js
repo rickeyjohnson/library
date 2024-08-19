@@ -23,5 +23,7 @@ function addBookToLibrary(book) {
 }
 
 function displayBooks() {
-    
+    myLibrary.map((book) => {
+        console.log(book)
+    })
 }
